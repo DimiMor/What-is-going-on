@@ -1,0 +1,188 @@
+*{margin: 0; padding: 0;}
+body{
+   background-image:url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=8000");
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+ 
+}
+.menu{
+list-style:none; 
+border:1px #c0c0c0; 
+float:left; 
+width:100%;
+text-align:center;
+background-color:#DCDCDC;
+position:fixed;
+margin-top:0px;
+display:block;
+margin-bottom:10px;
+z-index:2;
+
+  
+}
+.menu li{
+position:relative; 
+float:left; 
+border-right:1px solid #c0c0c0; 
+text-align:center;
+margin-bottom:10px;
+}
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;
+margin-bottom:px;
+}
+ 
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+  margin-bottom:10px;
+}
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+text-align:center;
+  margin-bottom:10px;
+}   
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:100%;
+text-align:center;
+margin-bottom:10px;
+}
+
+.cont {
+  margin-left:900px;
+  border-left: 1px solid #c0c0c0;
+  }
+
+.headline {
+  text-align:center;
+  font-family:papyrus;
+  font-size:45px;
+  padding:20px 40px ;
+  width:500px;
+  border-radius:10px;
+  margin:60px 350px;  
+  position:relative;
+  display:inline-block;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.inicio {
+  font-size:26px;
+  font-family:papyrus;
+  border-bottom:solid 1px;
+  margin-bottom: 10px;
+  width:50%;
+}
+
+.short {
+  font-size:18px;
+  font-family:papyrus;
+  margin-bottom: 60px;
+}
+
+.firstpicture {
+  margin-left: 350px;
+  border-radius: 10px;
+  margin-bottom: 80px;
+  box-shadow: 4px 4px 8px #000000;
+  
+}
+
+.content_behavior, .content2, .content-books, .content-tvshow {
+  display:flex;
+}
+
+.behavior_section, .movie_section, .books_section, .tvshow_section {
+  font-family: papyrus;
+  text-align: center;
+  border: 1px solid;
+  width: 100%;
+  display: inline-block;
+  background-color:rgba(250, 248, 254, 0.6);
+  margin-bottom:30px;
+}
+
+.artigo1, .artigo3, .fireandblood, .thewitcher, .kidseducation{
+  border-radius:15px;
+  margin-left: 100px;
+  width:400px;
+  background-image: url();
+  background-position:center;
+  height:450px;
+  margin-bottom: 100px;
+}
+
+.headline-art1, .headline-art3, .headline-fireandblood, .headline-thewitcher, .headline-kidseducation {
+  height:50px;
+  margin-left:px;
+  text-align:center;
+  font-family:papyrus;
+  font-size:30px;
+  font-weight:bold;
+  border-radius:15px 15px 0px 0px;
+  background-image:  
+}
+
+.angryemoji, .mafia, .fireandblood-cover, .twposter, .kidsplaying {
+  border-radius:10px 10px 0px 0px;
+  border: solid 5px;
+  border-color:#F0FFFF;
+}
+
+.explan, .critica-pc, .critica-fireandblood, .critica-tw, .h3kidseducation {
+  font-family:Goudy Old Style;
+  width:410px;
+  margin-left:0px;
+  height:200px;
+  margin-bottom: 10px;
+  overflow:scroll;
+  background-color:rgba(250, 248, 254, 0.3);
+}
+
+.artigo2, .artigo4, .shogun, .carnivalrow{
+  border-radius:15px;
+  margin-left: 220px;
+  width:420px;
+  background-image:url();
+  background-position:center;
+  height:450px;
+  background-repeat:repeat;
+ }
+
+.headline-art2, .headline-art4, .headline-shogun, .headline-cr{
+  height:50px;
+  margin:auto;
+  text-align:center;
+  font-family:papyrus;
+  font-size:30px;
+  font-weight:bold;
+  border-radius:15px 15px 0px 0px;
+  margin
+}
+
+.bubble, .coliseum, .japan, .street {
+  border-radius:10px 10px 0px 0px;
+  border: solid 5px;
+  border-color:#F0FFFF;
+}
+
+.critica-bubble, .critica-glad, .critica-shog, .critica-cr {
+  font-family:Goudy Old Style;
+  width:410px;
+  margin-left:0px;
+  height:200px;
+  margin-bottom: 10px;
+  overflow:scroll;
+  background-color:rgba(250, 248, 254, 0.3);
+}
+
