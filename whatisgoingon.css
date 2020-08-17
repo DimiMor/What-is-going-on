@@ -18,6 +18,7 @@ margin-top:0px;
 display:block;
 margin-bottom:10px;
 z-index:2;
+top:0px;
 
   
 }
@@ -64,18 +65,27 @@ margin-bottom:10px;
   }
 
 .headline {
-  text-align:center;
+  margin-top: 100px;
+  margin-left:350px;
+  margin-bottom:10px;
   font-family:papyrus;
   font-size:45px;
   padding:20px 40px ;
   width:500px;
   border-radius:10px;
-  margin:60px 350px;  
-  position:relative;
-  display:inline-block;
+  display:flex;
   text-shadow: 4px 4px 8px #000000;
 }
 
+.logo {
+  margin-top:0px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 8px #000000;
+}
+  
 .inicio {
   font-size:26px;
   font-family:papyrus;
@@ -91,14 +101,6 @@ margin-bottom:10px;
   margin-bottom: 60px;
   margin-left: 30px;
   margin-right: 20px;
-}
-
-.firstpicture {
-  margin-left: 350px;
-  border-radius: 10px;
-  margin-bottom: 80px;
-  box-shadow: 4px 4px 8px #000000;
-  
 }
 
 .content_behavior, .content2, .content-books, .content-tvshow {
@@ -125,7 +127,7 @@ margin-bottom:10px;
   margin-bottom: 100px;
 }
 
-.headline-art1, .headline-art3, .headline-fireandblood, .headline-thewitcher, .headline-kidseducation {
+.headline-art {
   height:50px;
   margin-left:px;
   text-align:center;
@@ -136,13 +138,13 @@ margin-bottom:10px;
   background-image:  
 }
 
-.angryemoji, .mafia, .fireandblood-cover, .twposter, .kidsplaying {
+ .headpictures {
   border-radius:10px 10px 0px 0px;
   border: solid 5px;
   border-color:#F0FFFF;
 }
 
-.explan, .critica-pc, .critica-fireandblood, .critica-tw, .h3kidseducation {
+.article {
   font-family:Goudy Old Style;
   width:410px;
   margin-left:0px;
